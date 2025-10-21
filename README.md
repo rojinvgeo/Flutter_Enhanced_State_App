@@ -37,9 +37,9 @@ The app also includes a **Home Menu** for easy navigation between examples.
 git clone https://github.com/yourusername/enhance_state_app.git
 cd enhance_state_app
 
-2. **Get dependencies:**
+2. Get dependencies:
 flutter pub get
 
-3. **Run the app:**
+3. Run the app:
 flutter run
 
