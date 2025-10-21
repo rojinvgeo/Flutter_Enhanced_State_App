@@ -1,50 +1,45 @@
 # Enhanced State App
 
-A Flutter project demonstrating **different state management approaches** in a single app.  
-This app helps you learn **setState**, **lifting state up**, and **InheritedWidget** in a practical way.
+A Flutter project demonstrating **different state management techniques** in a single app.  
+This project is designed to help beginners understand **setState**, **Lifting State Up**, and **InheritedWidget** through practical examples.
 
 ---
 
-## Table of Contents
-- [Overview](#overview)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Technologies](#technologies)
-- [What I Learned](#what-i-learned)
+## Project Overview
+In this project, I built an app with **three different screens**, each showcasing a unique approach to state management:
 
----
+1. **Local Counter using `setState()`**  
+   - Updates a counter locally in a single widget.  
+2. **Toggle Light using Lifting State Up**  
+   - Shares state between two widgets: a Switch and a Light Bulb icon.  
+3. **Shared Counter using InheritedWidget**  
+   - Demonstrates global state management across multiple widgets/screens without passing props manually.
 
-## Overview
-This project combines three common Flutter state management techniques:
-
-1. **Local State (`setState`)** – updates UI for a single widget.
-2. **Lifting State Up** – shares state between sibling widgets.
-3. **InheritedWidget** – shares state across the widget tree and multiple screens.
-
-The app has **three screens**, each demonstrating one technique, plus a **home menu** for navigation.
+The app also includes a **Home Menu** for easy navigation between examples.
 
 ---
 
 ## Features
-- **Local Counter** using `setState()`
-- **Toggle Light** using **lifting state up** (Switch + LightBulb)
-- **Shared Counter** using **InheritedWidget**  
-- Clean navigation between examples
+- **Local Counter**: Increment and reset a counter using `setState()`.
+- **Toggle Light**: Switch a light bulb on/off using Lifting State Up.
+- **Shared Counter**: Increment a global counter using InheritedWidget.
+- Simple and clean UI for learning Flutter state management.
+- Navigation between multiple screens.
 
 ---
 
 
-## Installation
+## How to Run
 
-1. Clone the repository:
+1. **Clone the repository:**
 
 ```bash
 git clone https://github.com/yourusername/enhance_state_app.git
 cd enhance_state_app
 
-## Get dependencies:
+2. **Get dependencies:**
 flutter pub get
 
-## Run the app:
+3. **Run the app:**
 flutter run
+
